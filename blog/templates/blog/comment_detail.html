@@ -1,3 +1,7 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
 {{comment.title}}
 {{comment.content}}
 <img src='{{comment.image.url}}'/>
+{% endblock %}
